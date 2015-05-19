@@ -5534,7 +5534,8 @@ button.close {
   background-color: white; }
 
 body {
-  background-image: url("../assets/icons/tile2.png"); }
+  background-image: url("../assets/icons/tile2.png");
+  color: #34495e; }
 
 header {
   font-family: 'Oswald', sans-serif;
@@ -5592,8 +5593,12 @@ aside {
   aside .icono-nav-uno:hover {
     color: red; }
 
-section .row {
-  margin: 0;
-  padding: 0; }
+section {
+  margin-left: 95px;
+  margin-right: 15px;
+  padding-top: 18%; }
+  section .row {
+    margin: 0;
+    padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
