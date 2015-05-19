@@ -5530,6 +5530,9 @@ button.close {
 .text-center {
   text-align: center; }
 
+.bg-white {
+  background-color: white; }
+
 header {
   font-family: 'Oswald', sans-serif;
   position: fixed;
@@ -5553,7 +5556,7 @@ header {
     margin: 2% 0 1%;
     font-size: 15px; }
   header #nav-dos-top {
-    margin-left: 170px; }
+    margin-left: 100px; }
     header #nav-dos-top nav {
       margin: 0; }
     header #nav-dos-top .navbar-inverse {
@@ -5575,7 +5578,11 @@ header {
 aside {
   position: fixed;
   font-family: 'Oswald', sans-serif;
-  width: 170px;
-  top: 11.8%; }
+  width: 100px;
+  top: 8.4%;
+  border: none; }
+  aside .nav-vertical .icono-nav-uno {
+    padding: 30% 0;
+    border-bottom: 1px solid #bdc3c7; }
 
 /*# sourceMappingURL=main.css.map */
