@@ -5542,6 +5542,9 @@ button.close {
 .fs-11 {
   font-size: 11px; }
 
+.width-15 {
+  width: 15%; }
+
 body {
   background-image: url("../assets/icons/tile2.png");
   color: #34495e; }
@@ -5616,41 +5619,56 @@ section {
     margin: 0;
     padding: 0; }
 
-.col-md-9 .col-md-6 .list-group .inicio-tabla {
-  height: 30px !important; }
-.col-md-9 .col-md-6 .list-group .list-group-item {
-  padding: 1.6% 0;
-  height: 40px;
-  width: 100%;
-  font-family: 'Roboto', sans-serif; }
-  .col-md-9 .col-md-6 .list-group .list-group-item .lista-columnas {
-    list-style: none outside none;
-    padding: 0; }
-    .col-md-9 .col-md-6 .list-group .list-group-item .lista-columnas li {
-      float: left;
-      display: block; }
-    .col-md-9 .col-md-6 .list-group .list-group-item .lista-columnas .lista-uno {
-      width: 15%;
-      border-right: 1px solid gray; }
-    .col-md-9 .col-md-6 .list-group .list-group-item .lista-columnas .lista-dos {
-      width: 15%;
-      border-right: 1px solid gray; }
-    .col-md-9 .col-md-6 .list-group .list-group-item .lista-columnas .lista-tres {
-      width: 50%;
-      padding: 0 3%; }
-    .col-md-9 .col-md-6 .list-group .list-group-item .lista-columnas .lista-cuatro {
-      width: 20%;
-      border-left: 1px solid gray; }
-  .col-md-9 .col-md-6 .list-group .list-group-item .titulo-tabla {
-    background-color: black !important;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    font-size: 12px; }
-  .col-md-9 .col-md-6 .list-group .list-group-item .contenido-tabla {
-    font-size: 12px;
-    font-weight: bold; }
-    .col-md-9 .col-md-6 .list-group .list-group-item .contenido-tabla p {
-      font-size: 10px; }
+.list-group {
+  margin-bottom: 5px; }
+  .list-group .inicio-tabla {
+    height: 30px !important; }
+  .list-group .list-group-item {
+    padding: 1.6% 0;
+    height: 40px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; }
+    .list-group .list-group-item .lista-columnas {
+      list-style: none outside none;
+      padding: 0; }
+      .list-group .list-group-item .lista-columnas li {
+        float: left;
+        display: block; }
+      .list-group .list-group-item .lista-columnas .lista-uno {
+        width: 15%;
+        border-right: 1px solid gray; }
+      .list-group .list-group-item .lista-columnas .lista-dos {
+        width: 15%;
+        border-right: 1px solid gray; }
+      .list-group .list-group-item .lista-columnas .lista-tres {
+        width: 50%;
+        padding: 0 3%; }
+      .list-group .list-group-item .lista-columnas .lista-cuatro {
+        width: 20%;
+        border-left: 1px solid gray; }
+      .list-group .list-group-item .lista-columnas .lista-uno-curso {
+        width: 50%;
+        border-right: 1px solid gray; }
+        .list-group .list-group-item .lista-columnas .lista-uno-curso p {
+          padding: 0 3%;
+          margin: 0;
+          line-height: 1em; }
+      .list-group .list-group-item .lista-columnas .lista-dos-curso {
+        width: 25%;
+        border-right: 1px solid gray; }
+      .list-group .list-group-item .lista-columnas .lista-tres-curso {
+        width: 25%;
+        padding: 0 3%; }
+    .list-group .list-group-item .titulo-tabla {
+      background-color: black !important;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      font-size: 12px; }
+    .list-group .list-group-item .contenido-tabla {
+      font-size: 12px;
+      font-weight: bold; }
+      .list-group .list-group-item .contenido-tabla p {
+        font-size: 10px; }
 
 /*# sourceMappingURL=main.css.map */
