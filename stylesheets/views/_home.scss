@@ -64,8 +64,8 @@ header{
 			border: none;
 		}
 		.nombre-usuario{
-			margin-top: 14%;
-  		font-size: 28px;
+			margin-top: 15%;
+  		font-size: 30px;
 		}
 		.icono-nav-uno{
 			margin-top: 5%;
@@ -92,5 +92,15 @@ aside{
 			padding: 41% 0;
 			border-bottom: 1px solid #bdc3c7;
 		}
+	}
+	.icono-nav-uno:hover{
+		color: red;
+	}
+}
+
+section{
+	.row{
+		margin: 0;
+		padding: 0;	
 	}
 }
