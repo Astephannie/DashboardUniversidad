@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*========================================
 =            Bootstrap                   =
 ========================================*/
@@ -5522,99 +5521,6 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
-.container-fluid {
-  padding: 0; }
-
-body {
-  font-family: "MuseoSans"; }
-
-.row {
-  margin: 0;
-  padding: 0; }
-
-.text-gray {
-  color: #989898; }
-
-.text-dark-gray {
-  color: #4D4545; }
-
-.text-white {
-  color: white; }
-
-.text-orange {
-  color: #FF6A49; }
-
-.text-yellow {
-  color: #FFC200; }
-
-.text-light-blue {
-  color: #58C6E7; }
-
-.text-icolor {
-  color: #28C5E6; }
-
-.text-tomato {
-  color: tomato !important; }
-
-h1 {
-  text-align: center;
-  font-size: 37px;
-  letter-spacing: 0;
-  line-height: 1;
-  font-family: NeutraText-DemiAlt !important; }
-
-h2 {
-  text-align: center;
-  font-size: 33px;
-  letter-spacing: 0;
-  line-height: 1;
-  font-family: NeutraText-DemiAlt !important; }
-
-h3 {
-  letter-spacing: 0.03em;
-  line-height: 1.4;
-  font-size: 27px; }
-
-h4 {
-  font-family: NeutraText-LightAlt !important;
-  letter-spacing: 0.03em;
-  line-height: 1.2;
-  font-size: 25px; }
-
-h5 {
-  font-family: NeutraText-LightAlt !important;
-  line-height: 1.2;
-  font-size: 20px;
-  margin-bottom: 2%;
-  margin-top: 0; }
-
-.bg-gray {
-  background-color: #9E9D9D; }
-
-.bg-light-gray {
-  background-color: #E8E8E8; }
-
-.bg-white {
-  background-color: white; }
-
-.bg-pastel1 {
-  background-color: #CCA18B; }
-
-.bg-pastel2 {
-  background-color: #E89; }
-
-.bg-pastel3 {
-  background-color: #67AE6D; }
-
-.bg-pastel4 {
-  background-color: #AB5; }
-
-.bg-pastel5 {
-  background-color: #B9B; }
-
-.bg-pastel6 {
-  background-color: #A95; }
-
 .text-left {
   text-align: left; }
 
@@ -5624,108 +5530,13 @@ h5 {
 .text-center {
   text-align: center; }
 
-.text-justify {
-  text-align: justify; }
-
-@font-face {
-  font-family: MuseoSans;
-  src: url(../fonts/section-fonts/MuseoSans.otf); }
-@font-face {
-  font-family: MuseoSans-uno;
-  src: url(../fonts/section-fonts/MuseoSans-uno.otf); }
-@font-face {
-  font-family: NeutraText-LightAlt;
-  src: url(../fonts/header-fonts/NeutraText-LightAlt.otf); }
-@font-face {
-  font-family: NeutraText-BoldAlt;
-  src: url(../fonts/header-fonts/NeutraText-BoldAlt.otf); }
-@font-face {
-  font-family: NeutraText-DemiAlt;
-  src: url(../fonts/header-fonts/NeutraText-DemiAlt.otf); }
-header .navbar-inverse {
-  background-color: #ecf0f1;
-  border-color: darkgray; }
-  header .navbar-inverse .container-fluid .navbar-header {
-    width: 14%; }
-    header .navbar-inverse .container-fluid .navbar-header a {
-      margin: 0;
-      padding: 3% 9%; }
-      header .navbar-inverse .container-fluid .navbar-header a img {
-        width: 100%; }
-header .form-group input {
-  width: 190px !important;
-  font-size: 12px !important; }
-header .margin-1 {
-  margin: 1px; }
-
-aside {
-  width: 20%;
-  background-color: #34495e;
-  position: fixed;
-  z-index: -1;
-  height: 100%; }
-  aside .menu-izq {
-    text-align: center; }
-    aside .menu-izq img {
-      width: 50%;
-      margin-top: 45%; }
-    aside .menu-izq h4 {
-      color: white;
-      padding-top: 2%;
-      padding-bottom: 4%; }
-    aside .menu-izq a {
-      color: white;
-      text-align: left; }
-    aside .menu-izq a:hover {
-      color: #2c3e50; }
-    aside .menu-izq button {
-      background-color: black; }
-    aside .menu-izq .espacio {
-      padding-right: 4%; }
-  aside span {
-    font-size: 16px; }
-
-#login {
-  background-image: url(../assets/images/fondo3.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 100%; }
-  #login .col-md-4 {
-    margin-top: 11%; }
-    #login .col-md-4 .recuadro-login {
-      border-radius: 13px;
-      border: 1px solid #2980b9;
-      background-color: white; }
-      #login .col-md-4 .recuadro-login .logo img {
-        width: 55%;
-        margin: 10% auto; }
-      #login .col-md-4 .recuadro-login form .form-control {
-        display: inline-block; }
-      #login .col-md-4 .recuadro-login form input {
-        width: 250px;
-        margin-bottom: 5%; }
-      #login .col-md-4 .recuadro-login form button {
-        background-color: #3498db;
-        border-radius: 12px;
-        padding: 1% 5%;
-        margin: 5%;
-        color: white;
-        font-weight: bold;
-        border: 1px solid #2980b9; }
-
-.margin-bottom-6 {
-  margin-bottom: 6%; }
-
-.seis-modulos {
-  margin: 7% !important; }
-  .seis-modulos .row {
-    margin: 0; }
-    .seis-modulos .row .col-md-4 .modulo {
-      height: 30%; }
-      .seis-modulos .row .col-md-4 .modulo .titulo-modulo {
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        padding-top: 20%; }
+header #nav-uno-top nav {
+  margin: 0; }
+header #nav-uno-top .navbar-inverse {
+  background-color: white;
+  border-color: #34495e; }
+header #nav-uno-top .universidad-titulo {
+  margin: 12% 0;
+  font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */

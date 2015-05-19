@@ -1,0 +1,32 @@
+// TEXT ALIGN
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+//////////////////////////////////
+
+header{
+	#nav-uno-top{
+		nav{
+			margin: 0;
+		}
+		.navbar-inverse{
+			background-color: white;
+			border-color: #34495e;
+		}
+		.universidad-titulo{
+			margin: 12% 0;
+  		font-size: 20px;
+		}
+	}
+}
+
