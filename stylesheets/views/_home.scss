@@ -15,6 +15,17 @@
 .bg-white{
 	background-color: white;
 }
+.bg-black{
+	background-color: black;
+}
+
+.fs-16{
+	font-size: 16px;
+}
+
+.fs-11{
+	font-size: 11px;
+}
 
 //////////////////////////////////
 
@@ -106,5 +117,59 @@ section{
 	.row{
 		margin: 0;
 		padding: 0;	
+	}
+}
+
+.col-md-9{
+	.col-md-6{
+		.list-group{
+			.inicio-tabla{
+				height: 30px !important;
+			}
+			.list-group-item{
+				padding: 1.6% 0;
+				height: 40px;
+				width: 100%;
+				font-family: 'Roboto', sans-serif;
+				.lista-columnas{
+					list-style: none outside none;
+					padding: 0;
+					li{
+						float: left;
+						display: block;
+					}
+					.lista-uno{
+						width: 15%;
+						border-right: 1px solid gray;		
+					}
+					.lista-dos{
+						width: 15%;		
+						border-right: 1px solid gray;				
+					}
+					.lista-tres{
+						width: 50%;
+						padding: 0 3%;					
+					}
+					.lista-cuatro{
+						width: 20%;	
+						border-left: 1px solid gray;					
+					}					
+				}
+				.titulo-tabla{
+					background-color: black !important;
+					color: white;
+					font-family: 'Oswald', sans-serif;
+					text-align: center;
+					font-size: 12px;
+				}
+				.contenido-tabla{
+					font-size: 12px;
+					font-weight: bold;
+					p{
+						font-size: 10px;	
+					}				
+				}
+			}
+		}
 	}
 }
