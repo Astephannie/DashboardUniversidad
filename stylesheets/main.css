@@ -5558,7 +5558,7 @@ header {
       margin: 0; }
     header #nav-dos-top .navbar-inverse {
       background-color: transparent;
-      border-bottom-color: #bdc3c7; }
+      border: none; }
     header #nav-dos-top .nombre-usuario {
       margin-top: 14%;
       font-size: 28px; }
@@ -5568,6 +5568,9 @@ header {
 .icono-size {
   font-size: 33px;
   margin-bottom: 5px; }
+
+.subtitulo-icono {
+  font-size: 12px; }
 
 aside {
   position: fixed;
