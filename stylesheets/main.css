@@ -5536,17 +5536,53 @@ button.close {
 .bg-black {
   background-color: black; }
 
-.fs-16 {
-  font-size: 16px; }
+.txt-red {
+  color: #e74c3c; }
 
-.fs-15 {
-  font-size: 15px !important; }
+.padding-bottom-2 {
+  padding-bottom: 2%; }
+
+.padding-4 {
+  padding: 4% 0; }
+
+.padding-6 {
+  padding: 6% 0; }
+
+.fs-9 {
+  font-size: 9px !important; }
 
 .fs-11 {
   font-size: 11px !important; }
 
+.fs-13 {
+  font-size: 13px !important; }
+
+.fs-15 {
+  font-size: 15px !important; }
+
+.fs-16 {
+  font-size: 16px; }
+
+.fs-18 {
+  font-size: 18px !important; }
+
+.fs-20 {
+  font-size: 20px; }
+
+.fs-23 {
+  font-size: 23px; }
+
+.fs-30 {
+  font-size: 30px; }
+
 .width-50 {
   width: 50%; }
+
+.width-40 {
+  width: 40%; }
+
+.width-60 {
+  width: 60%; }
 
 .width-100 {
   width: 100%; }
@@ -5559,6 +5595,9 @@ button.close {
 
 .height-35 {
   height: 35px !important; }
+
+.font-slabo {
+  font-family: 'Slabo 27px', serif !important; }
 
 body {
   background-image: url("../assets/icons/tile2.png");
@@ -5645,7 +5684,8 @@ section {
     font-family: 'Roboto', sans-serif; }
     .list-group .list-group-item .lista-columnas {
       list-style: none outside none;
-      padding: 0; }
+      padding: 0;
+      font-weight: 300 !important; }
       .list-group .list-group-item .lista-columnas li {
         float: left;
         display: block; }
@@ -5658,6 +5698,9 @@ section {
       .list-group .list-group-item .lista-columnas .lista-tres {
         width: 47%;
         padding: 0 3%; }
+        .list-group .list-group-item .lista-columnas .lista-tres p {
+          font-size: 11px;
+          line-height: 1em; }
       .list-group .list-group-item .lista-columnas .lista-cuatro {
         width: 21%;
         border-left: 1px solid gray; }
@@ -5684,6 +5727,15 @@ section {
       font-size: 12px;
       font-weight: bold; }
       .list-group .list-group-item .contenido-tabla p {
-        font-size: 10px; }
+        font-size: 10px;
+        margin: 0; }
+
+.decoration-none {
+  text-decoration: none;
+  color: #2c3e50;
+  padding: 1%; }
+
+.height-100 {
+  height: 100px !important; }
 
 /*# sourceMappingURL=main.css.map */
