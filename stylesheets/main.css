@@ -5521,6 +5521,10 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
+body {
+  background-image: url("../assets/icons/tile2.png");
+  color: #34495e; }
+
 .text-left {
   text-align: left; }
 
@@ -5576,7 +5580,7 @@ button.close {
   font-size: 9px !important; }
 
 .fs-11 {
-  font-size: 11px !important; }
+  font-size: 1.1em !important; }
 
 .fs-12 {
   font-size: 12px !important; }
@@ -5629,12 +5633,19 @@ button.close {
 .height-165 {
   height: 165px !important; }
 
+.height-100 {
+  height: 100px !important; }
+
 .font-slabo {
   font-family: 'Slabo 27px', serif !important; }
 
-body {
-  background-image: url("../assets/icons/tile2.png");
-  color: #34495e; }
+.decoration-none {
+  text-decoration: none;
+  color: #2c3e50;
+  padding: 1%; }
+
+.col-md-6, .col-md-3, .col-md-9 {
+  padding: 0; }
 
 header {
   font-family: 'Oswald', sans-serif;
@@ -5732,7 +5743,7 @@ section {
         width: 47%;
         padding: 0 3%; }
         .list-group .list-group-item .lista-columnas .lista-tres p {
-          font-size: 11px;
+          font-size: 1.1em;
           line-height: 1em; }
       .list-group .list-group-item .lista-columnas .lista-cuatro {
         width: 21%;
@@ -5763,19 +5774,8 @@ section {
         font-size: 10px;
         margin: 0; }
 
-.decoration-none {
-  text-decoration: none;
-  color: #2c3e50;
-  padding: 1%; }
-
-.height-100 {
-  height: 100px !important; }
-
 .link {
   display: inline-block; }
-
-.col-md-6, .col-md-3, .col-md-9 {
-  padding: 0; }
 
 .pie-pagina {
   margin: 3% auto; }
