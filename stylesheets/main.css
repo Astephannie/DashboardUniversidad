@@ -5647,6 +5647,18 @@ body {
 .col-md-6, .col-md-3, .col-md-9 {
   padding: 0; }
 
+.bg-red {
+  background-color: red; }
+
+.inline {
+  display: inline-block; }
+
+.border-50 {
+  border-radius: 50%; }
+
+.relative {
+  position: relative; }
+
 header {
   font-family: 'Oswald', sans-serif;
   position: fixed;
@@ -5779,5 +5791,12 @@ section {
 
 .pie-pagina {
   margin: 3% auto; }
+
+.notificacion {
+  position: absolute;
+  z-index: 1;
+  left: 26px;
+  color: white;
+  margin: 1%; }
 
 /*# sourceMappingURL=main.css.map */
