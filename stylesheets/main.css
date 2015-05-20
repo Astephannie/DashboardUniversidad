@@ -5557,6 +5557,9 @@ button.close {
 .fs-13 {
   font-size: 13px !important; }
 
+.fs-14 {
+  font-size: 14px !important; }
+
 .fs-15 {
   font-size: 15px !important; }
 
@@ -5588,7 +5591,7 @@ button.close {
   width: 100%; }
 
 .border-right {
-  border-right: 1px solid gray; }
+  border-right: 1px solid #bdc3c7; }
 
 .weight-300 {
   font-weight: 300; }
@@ -5613,7 +5616,7 @@ header {
     margin: 0; }
   header #nav-uno-top {
     border: none;
-    border-bottom: 1px solid gray !important; }
+    border-bottom: 1px solid #bdc3c7 !important; }
     header #nav-uno-top nav {
       margin: 0;
       border: none; }
@@ -5691,10 +5694,10 @@ section {
         display: block; }
       .list-group .list-group-item .lista-columnas .lista-uno {
         width: 16%;
-        border-right: 1px solid gray; }
+        border-right: 1px solid #bdc3c7; }
       .list-group .list-group-item .lista-columnas .lista-dos {
         width: 16%;
-        border-right: 1px solid gray; }
+        border-right: 1px solid #bdc3c7; }
       .list-group .list-group-item .lista-columnas .lista-tres {
         width: 47%;
         padding: 0 3%; }
@@ -5703,17 +5706,17 @@ section {
           line-height: 1em; }
       .list-group .list-group-item .lista-columnas .lista-cuatro {
         width: 21%;
-        border-left: 1px solid gray; }
+        border-left: 1px solid #bdc3c7; }
       .list-group .list-group-item .lista-columnas .lista-uno-curso {
         width: 50%;
-        border-right: 1px solid gray; }
+        border-right: 1px solid #bdc3c7; }
         .list-group .list-group-item .lista-columnas .lista-uno-curso p {
           padding: 0 3%;
           margin: 0;
           line-height: 1em; }
       .list-group .list-group-item .lista-columnas .lista-dos-curso {
         width: 25%;
-        border-right: 1px solid gray; }
+        border-right: 1px solid #bdc3c7; }
       .list-group .list-group-item .lista-columnas .lista-tres-curso {
         width: 25%;
         padding: 0 3%; }
