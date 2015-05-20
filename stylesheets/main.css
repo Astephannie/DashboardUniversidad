@@ -5536,11 +5536,23 @@ button.close {
 .bg-black {
   background-color: black; }
 
+.line-height {
+  line-height: 1.2em; }
+
 .txt-red {
   color: #e74c3c; }
 
 .padding-bottom-2 {
   padding-bottom: 2%; }
+
+.padding-right-2 {
+  padding-right: 2% !important; }
+
+.padding-left-1 {
+  padding-left: 1% !important; }
+
+.padding-3 {
+  padding: 3% 0; }
 
 .padding-4 {
   padding: 4% 0; }
@@ -5548,11 +5560,14 @@ button.close {
 .padding-6 {
   padding: 6% 0; }
 
-.padding-3-5 {
-  padding: 3% 5%; }
+.padding-2-4 {
+  padding: 2% 4%; }
 
 .padding-2 {
   padding: 2%; }
+
+.margin-top-1 {
+  margin-top: 2.5%; }
 
 .fs-9 {
   font-size: 9px !important; }
@@ -5605,11 +5620,11 @@ button.close {
 .weight-300 {
   font-weight: 300; }
 
-.height-35 {
-  height: 35px !important; }
+.height-38 {
+  height: 38px !important; }
 
-.height-200 {
-  height: 200px !important; }
+.height-173 {
+  height: 173px !important; }
 
 .font-slabo {
   font-family: 'Slabo 27px', serif !important; }
@@ -5755,5 +5770,8 @@ section {
 
 .link {
   display: inline-block; }
+
+.col-md-6, .col-md-3, .col-md-9 {
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
