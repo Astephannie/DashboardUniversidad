@@ -5545,8 +5545,11 @@ button.close {
 .fs-11 {
   font-size: 11px !important; }
 
-.width-15 {
-  width: 15%; }
+.width-50 {
+  width: 50%; }
+
+.border-right {
+  border-right: 1px solid gray; }
 
 .weight-300 {
   font-weight: 300; }
