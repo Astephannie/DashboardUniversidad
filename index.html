@@ -62,9 +62,19 @@
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
 			        <li class="nombre-usuario"><span class="font-slabo">Hola Violeta</span></li>
-			        <li><a href="#"><img src="assets/icons/user.png" class="img-circle">
-
-			        </a></li>
+			        <li>
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    <img src="assets/icons/user.png" class="img-circle">
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+								  </ul>
+								</div>
+			        </li>
 			      </ul>
 				  </div><!-- /.container-fluid -->
 				</nav>				
@@ -72,17 +82,23 @@
 		</header>
 		<aside>
 			<div class="nav-vertical bg-white">
-				<ul class="nav nav-pills nav-stacked">
+				<ul class="nav nav-pills nav-stacked sidebar">
 	        <li class="icono-nav-uno">
 	        	<div class="icon-upper text-center">
 							<span class="glyphicon glyphicon-home icono-size" aria-hidden="true"></span><br>
 							<span class="subtitulo-icono">INICIO</span>				
 						</div>
 	        </li>
-	        <li class="icono-nav-uno">
+	        <li class="icono-nav-uno menu-item">
 						<div class="icon-upper text-center">
 							<span class="glyphicon glyphicon-book icono-size" aria-hidden="true"></span><br>
 							<span class="subtitulo-icono">MIS ESTUDIOS</span>				
+							<ul class="sub-menu absolute">
+		      			<li>Estudios-1</li>		
+		      			<li>Estudios-2</li>		
+		      			<li>Estudios-3</li>		
+		      			<li>Estudios-4</li>		
+		      		</ul>
 						</div>
 	        </li>
 	        <li class="icono-nav-uno">
@@ -210,7 +226,7 @@
 						    </ul>								  	
 						  </li>						  
 						  <li class="list-group-item">
-						    <ul class="lista-columnas contenido-tabla">
+						    <ul class="lista-columnas contenido-tabla">H
 						        <li class="lista-uno text-center fs-16">7am</li>
 						        <li class="lista-dos text-center fs-16">[MO]</li>
 						        <li class="lista-tres"><p>Procesos de Manufactura y Tecnología de Materiales 2</p></li>
@@ -368,7 +384,7 @@
 					        <li class="width-40 text-center">BOLETA VENCIDA</li>					        
 					    </ul>								  	
 					  </li>
-					  <li class="list-group-item height-100 hidden">
+					  <li class="list-group-item height-100">
 					    <ul class="lista-columnas contenido-tabla">
 					      <li class=" width-100 contenido-tabla"><a href="#" class="decoration-none">
 				        	<div class="text-center fs-11">
@@ -378,7 +394,7 @@
 				        </a></li>							   
 					    </ul>									  	
 					  </li>	
-		        <li class="list-group-item height-100 padding-2">
+		        <li class="list-group-item height-100 padding-2 hidden">
 					    <ul class="lista-columnas contenido-tabla">
 					      <li class=" width-60 contenido-tabla border-right">
 				        	<div class="text-center fs-11 padding-4 id='oculto' style='display:none;'">
@@ -441,6 +457,8 @@
 		<!-- Javascripts de Bootstrap -->
 		<script src="javascripts/b3/collapse.js"></script>
 		<script src="javascripts/b3/transition.js"></script>
+		<script src="javascripts/b3/dropdown.js"></script>
+		<script src="javascripts/jquery.js"></script>
 	</body>	
 </html>	
 
